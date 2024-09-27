@@ -9,6 +9,31 @@
     android:gravity="center"
     tools:context=".ScreenTwo">
 
+    <!-- Section One -->
+    <ImageView
+        android:id="@+id/oneAnimal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/frog" />
 
+    <TextView
+        android:id="@+id/oneCap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="[        ]" />
+
+    <Button
+        android:id="@+id/oneBtn"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:text="Reveal" />
+
+    <TextView
+        android:id="@+id/oneSpace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
 
 </LinearLayout>
