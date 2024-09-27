@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="#ff695e"
     tools:context=".ScreenTwo">
 
     <!-- Section One -->
@@ -18,10 +19,11 @@
 
     <TextView
         android:id="@+id/oneCap"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textSize="20sp"
+        android:background="@color/white"
         android:text="[        ]" />
 
     <Button
@@ -45,10 +47,11 @@
 
     <TextView
         android:id="@+id/twoCap"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textSize="20sp"
+        android:background="@color/white"
         android:text="[        ]" />
 
     <Button
@@ -72,10 +75,11 @@
 
     <TextView
         android:id="@+id/threeCap"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textSize="20sp"
+        android:background="@color/white"
         android:text="[        ]" />
 
     <Button
