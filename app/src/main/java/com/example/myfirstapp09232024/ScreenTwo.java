@@ -41,5 +41,14 @@ public class ScreenTwo extends AppCompatActivity
         Button threeBtn = findViewById(R.id.threeBtn);
         TextView threeCap = findViewById(R.id.threeCap);
 
+        oneBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                oneAnimal.setImageResource(R.drawable.dog);
+                oneCap.setText("1st Place : Dog");
+                Log.i("Reveal", "1st Animal is Revealed!");
+                Toast.makeText(ScreenTwo.this, "Woof woof!", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }
