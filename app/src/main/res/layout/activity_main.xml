@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="#ff695e"
     tools:context=".MainActivity">
 
     <TextView
@@ -16,12 +17,14 @@
         android:fontFamily="sans-serif-condensed-medium"
         android:text="Take a Guess!"
         android:textAlignment="center"
+        android:background="@color/white"
         android:textSize="34sp" />
 
     <ImageView
         android:id="@+id/oneImage"
         android:layout_width="match_parent"
         android:layout_height="245dp"
+        android:background="@color/black"
         android:src="@drawable/frog" />
 
     <TextView
@@ -31,6 +34,7 @@
         android:fontFamily="sans-serif-condensed-medium"
         android:text="Top 3 Animals People Love"
         android:textAlignment="center"
+        android:background="@color/white"
         android:textSize="34sp" />
 
     <Button
