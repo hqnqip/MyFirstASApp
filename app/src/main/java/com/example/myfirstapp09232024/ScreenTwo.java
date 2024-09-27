@@ -85,7 +85,7 @@ public class ScreenTwo extends AppCompatActivity
                 threeAnimal.setImageResource(R.drawable.chicken);
                 threeCap.setText("3rd Place : Chicken");
                 Log.i("Reveal", "3rd Animal is Revealed!");
-                Toast.makeText(ScreenTwo.this, "Bawk bawk bawk!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(ScreenTwo.this, "Bawk-! Wait! What happened to our eagle!?", Toast.LENGTH_SHORT).show();
             }
         });
 
