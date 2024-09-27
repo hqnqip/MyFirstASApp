@@ -18,4 +18,19 @@
         android:textAlignment="center"
         android:textSize="34sp" />
 
+    <ImageView
+        android:id="@+id/oneImage"
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:src="@drawable/frog" />
+
+    <TextView
+        android:id="@+id/twoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Top 3 Animals People Love"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
 </LinearLayout>
