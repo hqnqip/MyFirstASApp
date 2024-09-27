@@ -28,5 +28,18 @@ public class ScreenTwo extends AppCompatActivity
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        ImageView oneAnimal = findViewById(R.id.oneAnimal);
+        Button oneBtn = findViewById(R.id.oneBtn);
+        TextView oneCap = findViewById(R.id.oneCap);
+
+        ImageView twoAnimal = findViewById(R.id.twoAnimal);
+        Button twoBtn = findViewById(R.id.twoBtn);
+        TextView twoCap = findViewById(R.id.twoCap);
+
+        ImageView threeAnimal = findViewById(R.id.threeAnimal);
+        Button threeBtn = findViewById(R.id.threeBtn);
+        TextView threeCap = findViewById(R.id.threeCap);
+
     }
 }
