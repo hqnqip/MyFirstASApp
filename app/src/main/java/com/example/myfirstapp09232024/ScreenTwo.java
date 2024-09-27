@@ -50,5 +50,26 @@ public class ScreenTwo extends AppCompatActivity
                 Toast.makeText(ScreenTwo.this, "Woof woof!", Toast.LENGTH_SHORT).show();
             }
         });
+
+        twoBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                twoAnimal.setImageResource(R.drawable.cat);
+                twoCap.setText("2nd Place : Cat");
+                Log.i("Reveal", "2nd Animal is Revealed!");
+                Toast.makeText(ScreenTwo.this, "Meooowww!", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        threeBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                threeAnimal.setImageResource(R.drawable.chicken);
+                threeCap.setText("3rd Place : Chicken");
+                Log.i("Reveal", "3rd Animal is Revealed!");
+                Toast.makeText(ScreenTwo.this, "Bawk bawk bawk!", Toast.LENGTH_SHORT).show();
+            }
+        });
+
     }
 }
