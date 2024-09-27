@@ -36,4 +36,52 @@
         android:layout_height="wrap_content"
         android:text="" />
 
+    <!-- Section Two -->
+    <ImageView
+        android:id="@+id/twoAnimal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/frog" />
+
+    <TextView
+        android:id="@+id/twoCap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="[        ]" />
+
+    <Button
+        android:id="@+id/twoBtn"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:text="Reveal" />
+
+    <TextView
+        android:id="@+id/twoSpace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <!-- Section Three -->
+    <ImageView
+        android:id="@+id/threeAnimal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/frog" />
+
+    <TextView
+        android:id="@+id/threeCap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="[        ]" />
+
+    <Button
+        android:id="@+id/threeBtn"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:text="Reveal" />
+
 </LinearLayout>
