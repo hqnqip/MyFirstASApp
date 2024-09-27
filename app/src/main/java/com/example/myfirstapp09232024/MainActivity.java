@@ -30,5 +30,16 @@ public class MainActivity extends AppCompatActivity
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        Button oneBtn = findViewById(R.id.oneBtn);
+        oneBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myInt = new Intent(getApplicationContext(), ScreenTwo.class);
+                Log.e("Navigate", "User has entered the next page.");
+                Toast.makeText(MainActivity.this, "You are entering the next page...", Toast.LENGTH_LONG).show();
+                startActivity(myInt);
+            }
+        });
     }
 }
