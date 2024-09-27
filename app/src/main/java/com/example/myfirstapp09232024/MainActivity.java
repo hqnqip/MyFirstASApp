@@ -41,5 +41,34 @@ public class MainActivity extends AppCompatActivity
                 startActivity(myInt);
             }
         });
+        /*
+          This is odd. Changing images with a button works here.
+          But not the second screen?
+
+          ImageView titleImg = findViewById((R.id.titleImg));
+          Button titleBtn = findViewById(R.id.titleBtn);
+
+          titleBtn.setOnClickListener(new View.OnClickListener() {
+              @Override
+              public void onClick(View v) {
+                  titleImg.setImageResource(R.drawable.dog);
+              }
+          });
+        */
     }
+
+    /*
+      Supposed to be an OnEvent kind of thing.
+      Did NOT work.
+
+      public void naviHandler(View v)
+      {
+          Toast.makeText(this, "You are entering the next page...", Toast.LENGTH_LONG).show();
+          Log.e("Move", "The user has moved to the next page.");
+          setContentView(R.layout.activity_screen_two);
+      }
+    */
+
 }
+
+//Frog Image: https://live.staticflickr.com/89/232636845_5ca3c4fe51_b.jpg
